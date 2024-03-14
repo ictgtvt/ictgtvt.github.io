@@ -16,9 +16,11 @@ source "https://rubygems.org"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 gem "github-pages", "~> 231", group: :jekyll_plugins
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  # gem "jekyll-feed", "~> 0.12"
+  # gem "jekyll-seo-tag", "~> 2.1"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -41,5 +43,3 @@ gem "faraday-retry", "~> 2.2"
 
 # gem "minima", "~> 2.5"
 # gem "minima", :github "jekyll/minima"
-
-gem "minima", "~> 2.5"
