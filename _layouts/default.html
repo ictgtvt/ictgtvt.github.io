@@ -72,6 +72,21 @@
                     <li class="mb-1">
                         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 ps-0 fw-medium collapsed"
                                 data-bs-toggle="collapse"
+                                data-bs-target="#principles-collapse"
+                                aria-expanded="false">
+                            Principles
+                        </button>
+                        <div class="collapse" id="principles-collapse" style="">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1">
+                                {% for page in site.principles %}
+                                    <li><a href="{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded fw-light">{{ page.name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 ps-0 fw-medium collapsed"
+                                data-bs-toggle="collapse"
                                 data-bs-target="#mysql-collapse"
                                 aria-expanded="false">
                             MySQL

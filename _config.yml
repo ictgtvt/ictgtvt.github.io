@@ -58,3 +58,5 @@ plugins:
 collections:
   mysql:
     output: true
+  principles:
+    output: true
