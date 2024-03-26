@@ -66,63 +66,67 @@ collections:
     name: "Principles"
     position: 2
     output: true
-  mysql:
-    name: "MySQL"
+  data-structures-and-algorithms:
+    name: "Data structures and algorithms"
     position: 3
-    output: true
-  laravel:
-    name: "Laravel"
-    position: 4
-    output: true
-  symfony:
-    name: "Symfony"
-    position: 5
-    output: true
-  javascript:
-    name: "Javascript"
-    position: 6
-    output: true
-  webpack:
-    name: "Webpack"
-    position: 7
-    output: true
-  network-and-security:
-    name: "Network and security"
-    position: 8
-    output: true
-  linux:
-    name: "Linux"
-    position: 9
-    output: true
-  management:
-    name: "Management"
-    position: 10
-    output: true
-  testing-ci-cd:
-    name: "Testing & CI/CD"
-    position: 11
-    output: true
-  devops:
-    name: "DevOps"
-    position: 12
-    output: true
-  aws:
-    name: "AWS"
-    position: 13
-    output: true
-  google-cloud:
-    name: "Google Cloud"
-    position: 14
-    output: true
-  ai-and-big-data:
-    name: "AI & Big Data"
-    position: 15
-    output: true
-  flutter:
-    name: "Flutter"
-    position: 16
     output: true
   ui-ux:
     name: "UI/UX"
+    position: 4
+    output: true
+  mysql:
+    name: "MySQL"
+    position: 5
+    output: true
+  laravel:
+    name: "Laravel"
+    position: 6
+    output: true
+  symfony:
+    name: "Symfony"
+    position: 7
+    output: true
+  javascript:
+    name: "Javascript"
+    position: 8
+    output: true
+  webpack:
+    name: "Webpack"
+    position: 9
+    output: true
+  network-and-security:
+    name: "Network and security"
+    position: 10
+    output: true
+  linux:
+    name: "Linux"
+    position: 11
+    output: true
+  management:
+    name: "Management"
+    position: 12
+    output: true
+  testing-ci-cd:
+    name: "Testing & CI/CD"
+    position: 13
+    output: true
+  devops:
+    name: "DevOps"
+    position: 14
+    output: true
+  aws:
+    name: "AWS"
+    position: 15
+    output: true
+  google-cloud:
+    name: "Google Cloud"
+    position: 16
+    output: true
+  ai-and-big-data:
+    name: "AI & Big Data"
     position: 17
+    output: true
+  flutter:
+    name: "Flutter"
+    position: 18
     output: true
