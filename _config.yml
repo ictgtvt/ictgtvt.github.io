@@ -55,8 +55,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+collections_dir: "_collections"
+
 collections:
   mysql:
     output: true
   principles:
+    output: true
+  books:
     output: true
