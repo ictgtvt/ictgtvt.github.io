@@ -122,3 +122,7 @@ collections:
     name: "Flutter"
     position: 16
     output: true
+  ui-ux:
+    name: "UI/UX"
+    position: 17
+    output: true
