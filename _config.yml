@@ -58,9 +58,28 @@ plugins:
 collections_dir: "_collections"
 
 collections:
-  mysql:
+  books:
+    name: "Books"
+    position: 1
     output: true
   principles:
+    name: "Principles"
+    position: 2
     output: true
-  books:
+  mysql:
+    name: "MySQL"
+    position: 3
     output: true
+  laravel:
+    name: "Laravel"
+    position: 4
+    output: true
+  symfony:
+    name: "Symfony"
+    position: 5
+    output: true
+  webpack:
+    name: "Webpack"
+    position: 6
+    output: true
+
