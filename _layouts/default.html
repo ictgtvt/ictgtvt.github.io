@@ -69,6 +69,26 @@
                             </ul>
                         </div>
                     </li>
+
+                    {% for collection in site.collections %}
+                        <li class="mb-1">
+                            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 ps-0 fw-medium collapsed"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#{{ collection.label }}-collapse2"
+                                    aria-expanded="true">
+                                {{ collection.label }}
+                            </button>
+                            <div class="collapse show" id="{{ collection.label }}-collapse2" style="">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1">
+                                    {% for page in collection.docs %}
+                                        <li><a href="{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded fw-light">{{ page.name }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </li>
+                    {% endfor %}
+
+
                     <li class="mb-1">
                         <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 ps-0 fw-medium collapsed"
                                 data-bs-toggle="collapse"
