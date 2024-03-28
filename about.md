@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Just another blog.
+"Rich-information videos offer deep learning, but unlike articles, they can't be skimmed for quick comprehension."
