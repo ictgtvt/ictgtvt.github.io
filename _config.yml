@@ -130,7 +130,7 @@ collections:
     name: "Flutter"
     position: 18
     output: true
-  sass:
-    name: "SASS"
+  front-end:
+    name: "Front-end"
     position: 19
     output: true
