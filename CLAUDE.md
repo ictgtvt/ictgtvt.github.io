@@ -8,8 +8,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
+Requires Ruby 3.x below 4.0 (`github-pages` 232 can't install on Ruby 4). macOS system Ruby 2.6 is too old; use Homebrew's `ruby@3.3`, which matches the GitHub Pages build:
+
 ```sh
-bundle install                          # install gems (github-pages ~> 231, webrick)
+export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+bundle install                          # install gems (github-pages ~> 232 → Jekyll 3.10, webrick)
 bundle exec jekyll serve                # local dev server at http://localhost:4000
 bundle exec jekyll serve --livereload   # with live reload
 bundle exec jekyll build                # build into _site/ (git-ignored)
